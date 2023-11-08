@@ -21,7 +21,7 @@ content-type: application/json
 
 ### 
 
-GET http://localhost:3000/api/users HTTP/1.1
+GET https://api-mongodb-dev-sjcm.1.us-1.fl0.io/api/users HTTP/1.1
 content-type: application/json
 
 ###
@@ -48,3 +48,31 @@ content-type: application/json
 
 DELETE https://api-mongodb-dev-nnas.3.us-1.fl0.io/api/users/6542da20c20d9ad95c739701 HTTP/1.1
 content-type: application/json
+
+
+### 
+POST https://api-mongodb-dev-sjcm.1.us-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Pani", 
+    "edad": 20
+}
+
+### 
+POST https://api-mongodb-dev-sjcm.1.us-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Miguel", 
+    "edad": 19
+}
+
+### 
+POST https://api-mongodb-dev-sjcm.1.us-1.fl0.io/api/users HTTP/1.1
+content-type: application/json
+
+{ 
+    "nombre": "Carlos", 
+    "edad": 19
+}
